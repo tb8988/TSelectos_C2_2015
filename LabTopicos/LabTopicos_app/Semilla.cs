@@ -18,9 +18,7 @@ namespace LabTopicos_app
         }
 
         void Crece() { 
-        
-
-        
+            //para que la semilla crezca hay que esperar tiempo
         }
 
         void Florece() { 
