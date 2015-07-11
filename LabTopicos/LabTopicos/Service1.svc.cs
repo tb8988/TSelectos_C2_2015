@@ -12,7 +12,30 @@ namespace LabTopicos
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        public string GetData(int value)
+
+        public void CalculaIntegrales(double a, double b, double c, string Constante, int operacion) 
+        {
+            /* Valores de operacion
+             * 1 = Simple
+             * 2 = Constante
+             * 3 = Potencia
+             * 4 = Logaritmo
+             * 5 = Exponencial
+             * 6 = Seno
+             * 7 = Coseno
+             * */
+
+            if(operacion == 1)
+            {
+            LabTopicos_app.Integral Integ = new LabTopicos_app.Integral();
+            Integ.Simple()
+            }
+            
+        
+        }
+
+
+       /* public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
         }
@@ -28,6 +51,6 @@ namespace LabTopicos
                 composite.StringValue += "Suffix";
             }
             return composite;
-        }
+        }*/
     }
 }
