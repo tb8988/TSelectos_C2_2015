@@ -14,7 +14,7 @@ namespace LabTopicos
     {
 
         [OperationContract]
-        int CalculaIntegrales(double a, double b, double c, double Constante, int operacion);
+        double CalculaIntegrales(double a, double b, double c, double Constante, int operacion);
 
        /* [OperationContract]
         string GetData(int value);
@@ -27,7 +27,7 @@ namespace LabTopicos
 
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
-    [DataContract]
+    //[DataContract]
     /*public class CompositeType
     {
         bool boolValue = true;
@@ -45,6 +45,6 @@ namespace LabTopicos
         {
             get { return stringValue; }
             set { stringValue = value; }
-        }
-    }*/
-}
+        }*/
+    }
+
