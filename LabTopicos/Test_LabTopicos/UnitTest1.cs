@@ -41,7 +41,7 @@ namespace Test_LabTopicos
             result_esperado = integral.Constante(var1, var2, constante);
 
             //Validacion
-            double result_real = 0;
+            double result_real = 6;
             Assert.AreEqual(result_esperado, result_real, 0.0001, "Resultado erroneo integral con constante");
 
         }
@@ -60,7 +60,7 @@ namespace Test_LabTopicos
             result_esperado = integral.Potencia(var1, var2, pow);
 
             //Validacion
-            double result_real = 0;
+            double result_real = 50.6667;
             Assert.AreEqual(result_esperado, result_real, 0.0001, "Resultado erroneo integral con potencia");
         }
 
@@ -77,7 +77,7 @@ namespace Test_LabTopicos
             result_esperado = integral.Logaritmo(var1, var2);
 
             //Validacion
-            double result_real = 0;
+            double result_real = 2.42699;
             Assert.AreEqual(result_esperado, result_real, 0.0001, "Resultado erroneo integral comn logaritmo");
 
         }
@@ -96,7 +96,7 @@ namespace Test_LabTopicos
             result_esperado = integral.Exponencial(var1, var2);
 
             //Validacion
-            double result_real = 0;
+            double result_real = 2832.54483;
             Assert.AreEqual(result_esperado, result_real, 0.0001, "Resultado erroneo integral exponencial");
 
         }
@@ -114,7 +114,7 @@ namespace Test_LabTopicos
             result_esperado = integral.Seno(var1, var2);
 
             //Validacion
-            double result_real = 0;
+            double result_real = -0.33635;
             Assert.AreEqual(result_esperado, result_real, 0.0001, "Resultado erroneo integral con seno");
         }
 
@@ -131,7 +131,7 @@ namespace Test_LabTopicos
             result_esprado = integral.Coseno(var1, var2);
 
             //Validacion
-            double result_real = 0;
+            double result_real = -1.86822;
             Assert.AreEqual(result_esprado, result_real, 0.0001, "Resultado erroneo integral con coseno");
         }
     }
