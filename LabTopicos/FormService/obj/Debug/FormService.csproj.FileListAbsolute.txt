@@ -1,0 +1,9 @@
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\bin\Debug\FormService.exe.config
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\bin\Debug\FormService.exe
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\bin\Debug\FormService.pdb
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.csprojResolveAssemblyReference.cache
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.Form1.resources
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.Properties.Resources.resources
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.csproj.GenerateResource.Cache
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.exe
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\FormService\obj\Debug\FormService.pdb
