@@ -12,8 +12,8 @@ namespace LabTopicos_app
         public double Simple(int a, int b) {
             return ((Math.Pow(b, 2) / 2) - (Math.Pow(a, 2) / 2));
         }
-        public void Constante(int a, int b, int k) { 
-
+        public double Constante(int a, int b, int k) {
+            return k * (b - a);
         }
         public void Potencia(int a, int b, int n){
 
