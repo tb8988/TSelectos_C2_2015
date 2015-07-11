@@ -24,11 +24,11 @@ namespace LabTopicos_app
         public double Exponencial(int a, int b) {
             return (Math.Pow(Math.E, b) - Math.Pow(Math.E, a));
         }
-        public void Seno(int a, int b) { 
-            //Math.Sin()
+        public double Seno(int a, int b) {
+            return ((-Math.Cos(b)) - (-Math.Cos(a)));
         }
-        public void Coseno(int a, int b) { 
-            //Math.Cos()
+        public double Coseno(int a, int b) {
+            return ((Math.Sin(b)) - (Math.Sin(a)));
         }
     }
 }
