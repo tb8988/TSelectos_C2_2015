@@ -1,0 +1,6 @@
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\bin\Debug\LabTopicos_app.exe.config
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\bin\Debug\LabTopicos_app.exe
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\bin\Debug\LabTopicos_app.pdb
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\obj\Debug\LabTopicos_app.csprojResolveAssemblyReference.cache
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\obj\Debug\LabTopicos_app.exe
+C:\Users\David\Source\Repos\TSelectos_C2_2015\LabTopicos\LabTopicos_app\obj\Debug\LabTopicos_app.pdb
