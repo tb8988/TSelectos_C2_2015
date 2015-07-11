@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTopicos_app", "LabTopicos_app\LabTopicos_app.csproj", "{197BEA08-2D85-4856-A0F7-0310E9533E3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTopicos_app.proxy", "LabTopicos_app.proxy\LabTopicos_app.proxy.csproj", "{01E8428B-04BA-4E21-93A4-D09E2B48D190}"
+	ProjectSection(ProjectDependencies) = postProject
+		{226E9329-BF0B-4FB0-9AE8-7F8B166B4398} = {226E9329-BF0B-4FB0-9AE8-7F8B166B4398}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
