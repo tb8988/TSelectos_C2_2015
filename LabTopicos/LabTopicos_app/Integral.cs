@@ -10,13 +10,13 @@ namespace LabTopicos_app
     {
 
         public double Simple(int a, int b) {
-            return ((Math.Pow(b, 2) / 2) - (Math.Pow(a, 2) / 2));
+            return 0;
         }
         public double Constante(int a, int b, int k) {
             return k * (b - a);
         }
-        public void Potencia(int a, int b, int n){
-
+        public double Potencia(int a, int b, int n){
+            return ((Math.Pow(b, (n + 1)) / (n + 1)) - (Math.Pow(a, (n + 1)) / (n + 1)));
         }
         public void Logaritmo(int a, int b) { 
             //Math.Log()
