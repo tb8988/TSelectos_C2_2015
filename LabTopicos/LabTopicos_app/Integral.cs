@@ -9,25 +9,32 @@ namespace LabTopicos_app
     public class Integral
     {
 
-        public double Simple(int a, int b) {
+        public double Simple(double a, double b)
+        {
             return (b-a);
         }
-        public double Constante(int a, int b, int k) {
+        public double Constante(double a, double b, double k)
+        {
             return k * (b - a);
         }
-        public double Potencia(int a, int b, int n){
+        public double Potencia(double a, double b, double n)
+        {
             return ((Math.Pow(b, (n + 1)) / (n + 1)) - (Math.Pow(a, (n + 1)) / (n + 1)));
         }
-        public double Logaritmo(int a, int b) {
+        public double Logaritmo(double a, double b)
+        {
             return (Math.Log10(b) - Math.Log10(a));
         }
-        public double Exponencial(int a, int b) {
+        public double Exponencial(double a, double b)
+        {
             return (Math.Pow(Math.E, b) - Math.Pow(Math.E, a));
         }
-        public double Seno(int a, int b) {
+        public double Seno(double a, double b)
+        {
             return ((-Math.Cos(b)) - (-Math.Cos(a)));
         }
-        public double Coseno(int a, int b) {
+        public double Coseno(double a, double b)
+        {
             return ((Math.Sin(b)) - (Math.Sin(a)));
         }
     }
