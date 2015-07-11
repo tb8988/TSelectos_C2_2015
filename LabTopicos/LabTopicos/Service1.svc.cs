@@ -15,14 +15,22 @@ namespace LabTopicos
 
         public void CalculaIntegrales(double a, double b, double c, string Constante, int operacion) 
         {
-            /* 1 = 
-             * 
-             * 
-             * 
+            /* Valores de operacion
+             * 1 = Simple
+             * 2 = Constante
+             * 3 = Potencia
+             * 4 = Logaritmo
+             * 5 = Exponencial
+             * 6 = Seno
+             * 7 = Coseno
              * */
-            if(operacion)
+
+            if(operacion == 1)
+            {
             LabTopicos_app.Integral Integ = new LabTopicos_app.Integral();
-            Integ.
+            Integ.Simple()
+            }
+            
         
         }
 
