@@ -13,8 +13,14 @@ namespace LabTopicos
     public class Service1 : IService1
     {
 
-        public void CalculaIntegrales(int a, int b, int c, string Constante) 
+        public void CalculaIntegrales(double a, double b, double c, string Constante, int operacion) 
         {
+            /* 1 = 
+             * 
+             * 
+             * 
+             * */
+            if(operacion)
             LabTopicos_app.Integral Integ = new LabTopicos_app.Integral();
             Integ.
         

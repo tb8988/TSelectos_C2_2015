@@ -14,7 +14,7 @@ namespace LabTopicos
     {
 
         [OperationContract]
-        void CalculaIntegrales(int a, int b, int c, string Constante, );
+        void CalculaIntegrales(double a, double b, double c, string Constante, int operacion);
 
        /* [OperationContract]
         string GetData(int value);
