@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabTopicos_app
 {
-    class Integral
+    public class Integral
     {
 
         public double Simple(int a, int b) {
