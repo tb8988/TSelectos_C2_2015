@@ -9,26 +9,26 @@ namespace LabTopicos_app
     class Integral
     {
 
-        public void Simple() { 
+        public void Simple(int a, int b) { 
 
         }
-        public void Constante() { 
+        public void Constante(int a, int b, int k) { 
 
         }
-        public void Potencia(){
+        public void Potencia(int a, int b, int n){
 
         }
-        public void Logaritmo() { 
+        public void Logaritmo(int a, int b) { 
+            //Math.Log()
+        }
+        public void Exponencial(int a, int b) { 
         
         }
-        public void Exponencial() { 
-        
+        public void Seno(int a, int b) { 
+            //Math.Sin()
         }
-        public void Seno() { 
-        
-        }
-        public void Coseno() { 
-        
+        public void Coseno(int a, int b) { 
+            //Math.Cos()
         }
     }
 }
