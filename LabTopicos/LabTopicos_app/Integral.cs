@@ -21,8 +21,8 @@ namespace LabTopicos_app
         public void Logaritmo(int a, int b) { 
             //Math.Log()
         }
-        public void Exponencial(int a, int b) { 
-        
+        public void Exponencial(int a, int b) {
+            double e = Math.E;
         }
         public void Seno(int a, int b) { 
             //Math.Sin()
