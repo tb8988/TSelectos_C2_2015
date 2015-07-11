@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_LabTopicos", "Test_Lab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTopicos_app", "LabTopicos_app\LabTopicos_app.csproj", "{197BEA08-2D85-4856-A0F7-0310E9533E3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTopicos_app.proxy", "LabTopicos_app.proxy\LabTopicos_app.proxy.csproj", "{01E8428B-04BA-4E21-93A4-D09E2B48D190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{197BEA08-2D85-4856-A0F7-0310E9533E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197BEA08-2D85-4856-A0F7-0310E9533E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197BEA08-2D85-4856-A0F7-0310E9533E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E8428B-04BA-4E21-93A4-D09E2B48D190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E8428B-04BA-4E21-93A4-D09E2B48D190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E8428B-04BA-4E21-93A4-D09E2B48D190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E8428B-04BA-4E21-93A4-D09E2B48D190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
