@@ -18,8 +18,8 @@ namespace LabTopicos_app
         public double Potencia(int a, int b, int n){
             return ((Math.Pow(b, (n + 1)) / (n + 1)) - (Math.Pow(a, (n + 1)) / (n + 1)));
         }
-        public void Logaritmo(int a, int b) { 
-            //Math.Log()
+        public double Logaritmo(int a, int b) {
+            return (Math.Log10(b) - Math.Log10(a));
         }
         public void Exponencial(int a, int b) {
             double e = Math.E;
