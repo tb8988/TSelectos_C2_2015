@@ -9,8 +9,8 @@ namespace LabTopicos_app
     class Integral
     {
 
-        public void Simple(int a, int b) { 
-
+        public double Simple(int a, int b) {
+            return ((Math.Pow(b, 2) / 2) - (Math.Pow(a, 2) / 2));
         }
         public void Constante(int a, int b, int k) { 
 
