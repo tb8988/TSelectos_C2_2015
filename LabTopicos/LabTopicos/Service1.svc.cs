@@ -13,7 +13,7 @@ namespace LabTopicos
     public class Service1 : IService1
     {
 
-        public void CalculaIntegrales(double a, double b, double c, string Constante, int operacion) 
+        public double CalculaIntegrales(double a, double b, double c, double Constante, int operacion) 
         {
             /* Valores de operacion
              * 1 = Simple
@@ -24,14 +24,38 @@ namespace LabTopicos
              * 6 = Seno
              * 7 = Coseno
              * */
+            LabTopicos_app.Integral Calc = new LabTopicos_app.Integral();
 
-            if(operacion == 1)
+            if (operacion == 1)
             {
-            LabTopicos_app.Integral Integ = new LabTopicos_app.Integral();
-            Integ.Simple()
+                return Calc.Simple(a, b);
             }
-            
-        
+            else if (operacion == 2)
+            {
+                return Calc.Constante(a, b, Constante);
+            }
+            else if (operacion == 3) 
+            {
+                return Calc.Potencia(a, b, c);
+            }
+            else if (operacion == 4) 
+            {
+                return Calc.Logaritmo(a, b);
+            }
+            else if (operacion == 5) 
+            {
+                return Calc.Exponencial(a, b);
+            }
+            else if (operacion == 6) 
+            {
+                return Calc.Seno(a, b);
+            }
+            else if (operacion == 7) 
+            {
+                return Calc.Coseno(a, b);
+            }
+
+            return 0;
         }
 
 
