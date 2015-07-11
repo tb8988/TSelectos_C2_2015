@@ -10,7 +10,7 @@ namespace LabTopicos_app
     {
 
         public double Simple(int a, int b) {
-            return 0;
+            return (b-a);
         }
         public double Constante(int a, int b, int k) {
             return k * (b - a);
