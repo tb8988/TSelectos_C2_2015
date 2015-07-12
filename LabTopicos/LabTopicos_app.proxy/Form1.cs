@@ -89,38 +89,38 @@ namespace LabTopicos_app.proxy
             if (rbSimple.Checked == true)
             {
                 opcion = 1;
-                lblResultado.Text = "Resultdo de la integral simple: "+lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = ""+lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbConstante.Checked == true)
             {
                 opcion = 2;
-                lblResultado.Text = "Resultdo de la integral con una constante: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbPotencia.Checked == true)
             {
                 opcion = 3;
                 valuek = int.Parse(tbK.Text);
-                lblResultado.Text = "Resultdo de la integral con potencia: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbLogaritmo.Checked == true)
             {
                 opcion = 4;
-                lblResultado.Text = "Resultdo de la integral con logaritmo: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbExponencial.Checked == true)
             {
                 opcion = 5;
-                lblResultado.Text = "Resultdo de la integral exponencal: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbSeno.Checked == true)
             {
                 opcion = 6;
-                lblResultado.Text = "Resultdo de la integral con seno: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbCoseno.Checked == true)
             {
                 opcion = 7;
-                lblResultado.Text = "Resultdo de la integral con coseno: " + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
+                lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
 
             lbres.Show();
