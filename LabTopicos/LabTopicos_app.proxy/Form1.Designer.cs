@@ -232,11 +232,11 @@
             // 
             this.lbk.AutoSize = true;
             this.lbk.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbk.Location = new System.Drawing.Point(249, 173);
+            this.lbk.Location = new System.Drawing.Point(208, 174);
             this.lbk.Name = "lbk";
-            this.lbk.Size = new System.Drawing.Size(17, 17);
+            this.lbk.Size = new System.Drawing.Size(57, 17);
             this.lbk.TabIndex = 14;
-            this.lbk.Text = "k:";
+            this.lbk.Text = "Potencia:";
             // 
             // btnCalcular
             // 
@@ -288,9 +288,10 @@
             // lblConstante
             // 
             this.lblConstante.AutoSize = true;
-            this.lblConstante.Location = new System.Drawing.Point(208, 177);
+            this.lblConstante.Font = new System.Drawing.Font("Segoe UI Light", 9.75F);
+            this.lblConstante.Location = new System.Drawing.Point(201, 174);
             this.lblConstante.Name = "lblConstante";
-            this.lblConstante.Size = new System.Drawing.Size(58, 13);
+            this.lblConstante.Size = new System.Drawing.Size(66, 17);
             this.lblConstante.TabIndex = 19;
             this.lblConstante.Text = "Constante:";
             // 
@@ -301,13 +302,10 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(372, 361);
             this.ControlBox = false;
-            this.Controls.Add(this.lblConstante);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lbres);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.lbk);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbK);
             this.Controls.Add(this.tbB);
@@ -321,6 +319,9 @@
             this.Controls.Add(this.rbConstante);
             this.Controls.Add(this.rbSimple);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblConstante);
+            this.Controls.Add(this.lbk);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(388, 400);

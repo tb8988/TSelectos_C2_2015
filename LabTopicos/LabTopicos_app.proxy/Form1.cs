@@ -37,12 +37,14 @@ namespace LabTopicos_app.proxy
         {
             tbK.Show();
             lbk.Show();
+            lblConstante.Hide();
         }
 
         private void rbSimple_CheckedChanged(object sender, EventArgs e)
         {
             tbK.Hide();
             lbk.Hide();
+            lblConstante.Hide();
         }
 
         private void rbConstante_CheckedChanged(object sender, EventArgs e)
@@ -56,25 +58,28 @@ namespace LabTopicos_app.proxy
         {
             tbK.Hide();
             lbk.Hide();
+            lblConstante.Hide();
         }
 
         private void rbExponencial_CheckedChanged(object sender, EventArgs e)
         {
             tbK.Hide();
             lbk.Hide();
+            lblConstante.Hide();
         }
 
         private void rbSeno_CheckedChanged(object sender, EventArgs e)
         {
             tbK.Hide();
             lbk.Hide();
-
+            lblConstante.Hide();
         }
 
         private void rbCoseno_CheckedChanged(object sender, EventArgs e)
         {
             tbK.Hide();
             lbk.Hide();
+            lblConstante.Hide();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
