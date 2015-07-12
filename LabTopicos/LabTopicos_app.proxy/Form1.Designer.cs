@@ -47,6 +47,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.lbres = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.lblConstante = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -284,6 +285,15 @@
             this.lblResultado.TabIndex = 18;
             this.lblResultado.Text = "(result)";
             // 
+            // lblConstante
+            // 
+            this.lblConstante.AutoSize = true;
+            this.lblConstante.Location = new System.Drawing.Point(208, 177);
+            this.lblConstante.Name = "lblConstante";
+            this.lblConstante.Size = new System.Drawing.Size(58, 13);
+            this.lblConstante.TabIndex = 19;
+            this.lblConstante.Text = "Constante:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -291,6 +301,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(372, 361);
             this.ControlBox = false;
+            this.Controls.Add(this.lblConstante);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lbres);
             this.Controls.Add(this.button2);
@@ -345,6 +356,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lbres;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label lblConstante;
     }
 }
 

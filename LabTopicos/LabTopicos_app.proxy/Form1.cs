@@ -20,6 +20,7 @@ namespace LabTopicos_app.proxy
             lbres.Hide();
             lbk.Hide();
             tbK.Hide();
+            lblConstante.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -46,8 +47,9 @@ namespace LabTopicos_app.proxy
 
         private void rbConstante_CheckedChanged(object sender, EventArgs e)
         {
-            tbK.Hide();
+            tbK.Show();
             lbk.Hide();
+            lblConstante.Show();
         }
 
         private void rbLogaritmo_CheckedChanged(object sender, EventArgs e)
@@ -78,8 +80,8 @@ namespace LabTopicos_app.proxy
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             int opcion = 0;
-            double valuea = int.Parse(tbA.Text);
-            double valueb = int.Parse(tbB.Text);
+            double valuea = double.Parse(tbA.Text);
+            double valueb = double.Parse(tbB.Text);
             double valuek = 0;
             double constante = 0;
 
@@ -94,12 +96,13 @@ namespace LabTopicos_app.proxy
             else if (rbConstante.Checked == true)
             {
                 opcion = 2;
+                constante = double.Parse(tbK.Text);
                 lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbPotencia.Checked == true)
             {
                 opcion = 3;
-                valuek = int.Parse(tbK.Text);
+                valuek = double.Parse(tbK.Text);
                 lblResultado.Text = "" + lt.CalculaIntegrales(valuea, valueb, valuek, constante, opcion);
             }
             else if (rbLogaritmo.Checked == true)
